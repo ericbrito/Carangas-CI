@@ -21,11 +21,11 @@ struct CarViewModel {
     }
     
     var brand: String {
-        "Marca: \(car.brand)"
+        "Marka: \(car.brand)"
     }
     
     var fuelType: String {
-        "Combustível: \(car.fuel)"
+        "Combustével: \(car.fuel)"
     }
     
     var price: String {

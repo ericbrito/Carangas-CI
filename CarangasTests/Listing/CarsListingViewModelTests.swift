@@ -59,7 +59,7 @@ class CarsListingViewModelTests: XCTestCase {
     func testFirstCarInfo() {
         //Given
         sut.Service = CarAPIStub.self
-        let indexPath = IndexPath(row: 0, section: 0)
+        let indexPath = IndexPath(row: 1, section: 0)
         
         //When
         sut.loadCars()
