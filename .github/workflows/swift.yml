@@ -1,0 +1,19 @@
+name: Swift
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Pod Install
+        run: pod install
+    - name: Build and run tests
+      run: xcodebuild -workspace 'Carangas.xcworkspace' -scheme 'Carangas' -destination 'platform=iOS Simulator,name=iPhone 11 Pro' clean build test
