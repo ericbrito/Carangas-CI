@@ -8,11 +8,12 @@ on:
 
 jobs:
   build:
-
+    name: Build And Test iOS project
     runs-on: macos-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - name: Checkout
+      uses: actions/checkout@v2
     - name: CocoaPods Action
         run: |
           pod install
