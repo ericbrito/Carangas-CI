@@ -494,7 +494,6 @@
 				DB8F52268DE96FCB17D86DEF /* Pods-CarangasTests.debug.xcconfig */,
 				F4E478A8A4320140E9BD8320 /* Pods-CarangasTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -1098,10 +1097,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 3E3XKEFSJU;
 				INFOPLIST_FILE = Carangas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ericbrito.Carangas;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericbrito.Carangas-CI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1114,10 +1113,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 3E3XKEFSJU;
 				INFOPLIST_FILE = Carangas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ericbrito.Carangas;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericbrito.Carangas-CI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
