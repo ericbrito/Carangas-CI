@@ -1,0 +1,1 @@
+xcodebuild -workspace 'Carangas.xcworkspace' -scheme 'Carangas' -destination 'platform=iOS Simulator,name=iPhone 11 Pro' test
