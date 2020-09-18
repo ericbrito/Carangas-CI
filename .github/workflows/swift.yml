@@ -16,4 +16,6 @@ jobs:
     - name: Pod Install
         run: pod install
     - name: Build and run tests
-      run: xcodebuild -workspace 'Carangas.xcworkspace' -scheme 'Carangas' -destination 'platform=iOS Simulator,name=iPhone 11 Pro' clean build test
+      run: xcodebuild -workspace 'Carangas.xcworkspace' -scheme 'Carangas' -destination 'platform=iOS Simulator,name=iPhone 11 Pro' build
+    - name: Run tests
+      run: xcodebuild -workspace 'Carangas.xcworkspace' -scheme 'Carangas' -destination 'platform=iOS Simulator,name=iPhone 11 Pro' test
