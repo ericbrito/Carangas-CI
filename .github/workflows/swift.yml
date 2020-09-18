@@ -15,8 +15,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: CocoaPods Action
-        run: |
-          pod install
+        run: pod install --repo-update
     - name: Build and run tests
       run: |
           xcodebuild -workspace 'Carangas.xcworkspace' -scheme 'Carangas' -destination 'platform=iOS Simulator,name=iPhone 11 Pro' build
