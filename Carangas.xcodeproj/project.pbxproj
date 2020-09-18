@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1FD736C77B9A078A0024F094 /* Pods_Carangas_CarangasUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E4269C9CE8197481895556 /* Pods_Carangas_CarangasUITests.framework */; };
-		224517E825141D8E00C20555 /* CarangasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224517E725141D8E00C20555 /* CarangasTests.swift */; };
 		224517F425141E3800C20555 /* CarsListingViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224517F325141E3800C20555 /* CarsListingViewModelTests.swift */; };
 		224517F62514265400C20555 /* CarAPIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224517F52514265400C20555 /* CarAPIProtocol.swift */; };
 		224517F92514284C00C20555 /* CarAPIStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224517F82514284C00C20555 /* CarAPIStub.swift */; };
@@ -76,7 +75,6 @@
 		0A519A25654BF0C80E58EC65 /* Pods-Carangas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carangas.release.xcconfig"; path = "Target Support Files/Pods-Carangas/Pods-Carangas.release.xcconfig"; sourceTree = "<group>"; };
 		0FB3F0B39329DF18DFB02C94 /* Pods-CarangasSnapshotTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarangasSnapshotTests.release.xcconfig"; path = "Target Support Files/Pods-CarangasSnapshotTests/Pods-CarangasSnapshotTests.release.xcconfig"; sourceTree = "<group>"; };
 		224517E525141D8E00C20555 /* CarangasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarangasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		224517E725141D8E00C20555 /* CarangasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarangasTests.swift; sourceTree = "<group>"; };
 		224517E925141D8E00C20555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		224517F325141E3800C20555 /* CarsListingViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsListingViewModelTests.swift; sourceTree = "<group>"; };
 		224517F52514265400C20555 /* CarAPIProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarAPIProtocol.swift; sourceTree = "<group>"; };
@@ -173,7 +171,6 @@
 				224517F125141DCA00C20555 /* Form */,
 				224517F025141DC200C20555 /* Visualization */,
 				224517EF25141DBA00C20555 /* Listing */,
-				224517E725141D8E00C20555 /* CarangasTests.swift */,
 				224517E925141D8E00C20555 /* Info.plist */,
 			);
 			path = CarangasTests;
@@ -784,7 +781,6 @@
 				224517F425141E3800C20555 /* CarsListingViewModelTests.swift in Sources */,
 				224517F92514284C00C20555 /* CarAPIStub.swift in Sources */,
 				224518002514377000C20555 /* CarViewControllerTests.swift in Sources */,
-				224517E825141D8E00C20555 /* CarangasTests.swift in Sources */,
 				224517FE2514324000C20555 /* CarAPITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -872,6 +868,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3E3XKEFSJU;
 				INFOPLIST_FILE = CarangasTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -892,6 +889,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3E3XKEFSJU;
 				INFOPLIST_FILE = CarangasTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -910,6 +908,7 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3E3XKEFSJU;
 				INFOPLIST_FILE = CarangasUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -929,6 +928,7 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3E3XKEFSJU;
 				INFOPLIST_FILE = CarangasUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -948,6 +948,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3E3XKEFSJU;
 				INFOPLIST_FILE = CarangasSnapshotTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -968,6 +969,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3E3XKEFSJU;
 				INFOPLIST_FILE = CarangasSnapshotTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

@@ -1,13 +1,13 @@
 ---
 format_version: '8'
-default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
+default_step_lib_source: 'https://github.com/bitrise-io/bitrise-steplib.git'
 project_type: ios
 trigger_map:
 - push_branch: master
   workflow: deploy
-- push_branch: "*"
+- push_branch: '*'
   workflow: primary
-- pull_request_source_branch: "*"
+- pull_request_source_branch: '*'
   workflow: primary
 workflows:
   deploy:
@@ -22,13 +22,13 @@ workflows:
     - cocoapods-install@1: {}
     - xcode-test@2:
         inputs:
-        - project_path: "$BITRISE_PROJECT_PATH"
-        - scheme: "$BITRISE_SCHEME"
+        - project_path: $BITRISE_PROJECT_PATH
+        - scheme: $BITRISE_SCHEME
     - xcode-archive@2:
         inputs:
-        - project_path: "$BITRISE_PROJECT_PATH"
-        - scheme: "$BITRISE_SCHEME"
-        - export_method: "$BITRISE_EXPORT_METHOD"
+        - project_path: $BITRISE_PROJECT_PATH
+        - scheme: $BITRISE_SCHEME
+        - export_method: $BITRISE_EXPORT_METHOD
     - deploy-to-bitrise-io@1: {}
     - cache-push@2: {}
   primary:
@@ -43,10 +43,10 @@ workflows:
     - cocoapods-install@1: {}
     - xcode-test@2:
         inputs:
-        - project_path: "$BITRISE_PROJECT_PATH"
+        - project_path: $BITRISE_PROJECT_PATH
         - simulator_device: iPhone 11 Pro
-        - scheme: "$BITRISE_SCHEME"
-    - deploy-to-bitrise-io@1: {}
+        - scheme: $BITRISE_SCHEME
+    - deploy-to-bitrise-io@1.10: {}
     - cache-push@2: {}
 app:
   envs:
