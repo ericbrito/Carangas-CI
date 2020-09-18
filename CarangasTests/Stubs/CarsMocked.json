@@ -1,0 +1,49 @@
+[{
+    "_id": "5f581724fc26d30004339118",
+    "brand": "Acura",
+    "gasType": 0,
+    "name": "M3",
+    "price": 99
+}, {
+    "_id": "5f5957af2bc21900041ce2dd",
+    "brand": "VW",
+    "gasType": 0,
+    "name": "Fox",
+    "price": 35000
+}, {
+    "_id": "5f5a54bd82699e00046d0dee",
+    "brand": "Audi",
+    "gasType": 2,
+    "name": "A4",
+    "price": 150000
+}, {
+    "_id": "5f5a55fd82699e00046d0def",
+    "brand": "Citroën",
+    "gasType": 2,
+    "name": "C3",
+    "price": 50000
+}, {
+    "_id": "5f5ff655e5aa170004cddf87",
+    "brand": "Ford",
+    "gasType": 0,
+    "name": "Ka",
+    "price": 50000
+}, {
+    "_id": "5f60093fe5aa170004cddf8b",
+    "brand": "Chevrolet",
+    "gasType": 2,
+    "name": "Corvette do mal",
+    "price": 3588880
+}, {
+    "_id": "5f60d5e82b8744000430b575",
+    "brand": "Ford",
+    "gasType": 2,
+    "name": "Focus",
+    "price": 150000
+}, {
+    "_id": "5f63ec07015f4f0004412839",
+    "brand": "ASTON MARTIN",
+    "gasType": 0,
+    "name": "ASTON",
+    "price": 100
+}]
