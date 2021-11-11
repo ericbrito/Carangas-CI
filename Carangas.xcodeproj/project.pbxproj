@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2297F6162523ECEE00F89427 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2297F6152523ECEE00F89427 /* Car.swift */; };
 		2297F6182523EDE800F89427 /* CarAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2297F6172523EDE800F89427 /* CarAPI.swift */; };
-		2568078E4494EC588129DBAE /* Pods_Carangas_CarangasUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2568E1D9736B79A06FA1A6A3 /* Pods_Carangas_CarangasUITests.framework */; };
 		2EFC79B09AC257432F20A704 /* Pods_CarangasTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8524B249B772432DCCD2243 /* Pods_CarangasTests.framework */; };
 		398FE633CE7E19551BFFBF2C /* Pods_Carangas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B253B5C7EF9F64AEED90FE2B /* Pods_Carangas.framework */; };
 		4C6CF0C340B9369A0B5DD915 /* Pods_CarangasSnapshotTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CC934616F5A68084F73299 /* Pods_CarangasSnapshotTests.framework */; };
@@ -33,7 +32,6 @@
 		5CAB6F3527349D070038859C /* CarsListingViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAB6F3427349D070038859C /* CarsListingViewModelTests.swift */; };
 		5CAB6F382734A4EF0038859C /* CarAPIStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAB6F372734A4EF0038859C /* CarAPIStub.swift */; };
 		5CAB6F3B2734B7020038859C /* CarAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAB6F3A2734B7020038859C /* CarAPITests.swift */; };
-		5CAB6F432734BAC60038859C /* CarangasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAB6F422734BAC60038859C /* CarangasUITests.swift */; };
 		5CAB6F512734C6670038859C /* CarangasSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAB6F502734C6670038859C /* CarangasSnapshotTests.swift */; };
 		A16BA8671F953B940045AD32 /* CarFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16BA8661F953B940045AD32 /* CarFormViewController.swift */; };
 		A19C4BE21F92C57D00A25342 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19C4BE11F92C57D00A25342 /* AppDelegate.swift */; };
@@ -45,13 +43,6 @@
 
 /* Begin PBXContainerItemProxy section */
 		5CAB6F2B27349BBE0038859C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A19C4BD61F92C57D00A25342 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A19C4BDD1F92C57D00A25342;
-			remoteInfo = Carangas;
-		};
-		5CAB6F452734BAC60038859C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A19C4BD61F92C57D00A25342 /* Project object */;
 			proxyType = 1;
@@ -98,9 +89,6 @@
 		5CAB6F3427349D070038859C /* CarsListingViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsListingViewModelTests.swift; sourceTree = "<group>"; };
 		5CAB6F372734A4EF0038859C /* CarAPIStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarAPIStub.swift; sourceTree = "<group>"; };
 		5CAB6F3A2734B7020038859C /* CarAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarAPITests.swift; sourceTree = "<group>"; };
-		5CAB6F402734BAC60038859C /* CarangasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarangasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CAB6F422734BAC60038859C /* CarangasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarangasUITests.swift; sourceTree = "<group>"; };
-		5CAB6F442734BAC60038859C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CAB6F4E2734C6670038859C /* CarangasSnapshotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarangasSnapshotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CAB6F502734C6670038859C /* CarangasSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarangasSnapshotTests.swift; sourceTree = "<group>"; };
 		5CAB6F522734C6670038859C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -126,14 +114,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EFC79B09AC257432F20A704 /* Pods_CarangasTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5CAB6F3D2734BAC60038859C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2568078E4494EC588129DBAE /* Pods_Carangas_CarangasUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,15 +409,6 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
-		5CAB6F412734BAC60038859C /* CarangasUITests */ = {
-			isa = PBXGroup;
-			children = (
-				5CAB6F422734BAC60038859C /* CarangasUITests.swift */,
-				5CAB6F442734BAC60038859C /* Info.plist */,
-			);
-			path = CarangasUITests;
-			sourceTree = "<group>";
-		};
 		5CAB6F4F2734C6670038859C /* CarangasSnapshotTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -452,7 +423,6 @@
 			children = (
 				A19C4BE01F92C57D00A25342 /* Carangas */,
 				5CAB6F2727349BBE0038859C /* CarangasTests */,
-				5CAB6F412734BAC60038859C /* CarangasUITests */,
 				5CAB6F4F2734C6670038859C /* CarangasSnapshotTests */,
 				A19C4BDF1F92C57D00A25342 /* Products */,
 				00496426832BC0F7A11D1AF0 /* Pods */,
@@ -465,7 +435,6 @@
 			children = (
 				A19C4BDE1F92C57D00A25342 /* Carangas.app */,
 				5CAB6F2627349BBE0038859C /* CarangasTests.xctest */,
-				5CAB6F402734BAC60038859C /* CarangasUITests.xctest */,
 				5CAB6F4E2734C6670038859C /* CarangasSnapshotTests.xctest */,
 			);
 			name = Products;
@@ -505,25 +474,6 @@
 			productName = CarangasTests;
 			productReference = 5CAB6F2627349BBE0038859C /* CarangasTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		5CAB6F3F2734BAC60038859C /* CarangasUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5CAB6F472734BAC60038859C /* Build configuration list for PBXNativeTarget "CarangasUITests" */;
-			buildPhases = (
-				81835C0503BFD83F47F1351C /* [CP] Check Pods Manifest.lock */,
-				5CAB6F3C2734BAC60038859C /* Sources */,
-				5CAB6F3D2734BAC60038859C /* Frameworks */,
-				5CAB6F3E2734BAC60038859C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5CAB6F462734BAC60038859C /* PBXTargetDependency */,
-			);
-			name = CarangasUITests;
-			productName = CarangasUITests;
-			productReference = 5CAB6F402734BAC60038859C /* CarangasUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		5CAB6F4D2734C6670038859C /* CarangasSnapshotTests */ = {
 			isa = PBXNativeTarget;
@@ -578,11 +528,6 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = A19C4BDD1F92C57D00A25342;
 					};
-					5CAB6F3F2734BAC60038859C = {
-						CreatedOnToolsVersion = 12.5.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = A19C4BDD1F92C57D00A25342;
-					};
 					5CAB6F4D2734C6670038859C = {
 						CreatedOnToolsVersion = 12.5.1;
 						ProvisioningStyle = Automatic;
@@ -610,7 +555,6 @@
 			targets = (
 				A19C4BDD1F92C57D00A25342 /* Carangas */,
 				5CAB6F2527349BBE0038859C /* CarangasTests */,
-				5CAB6F3F2734BAC60038859C /* CarangasUITests */,
 				5CAB6F4D2734C6670038859C /* CarangasSnapshotTests */,
 			);
 		};
@@ -618,13 +562,6 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		5CAB6F2427349BBE0038859C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5CAB6F3E2734BAC60038859C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -669,28 +606,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-CarangasSnapshotTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		81835C0503BFD83F47F1351C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Carangas-CarangasUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -773,14 +688,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5CAB6F3C2734BAC60038859C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5CAB6F432734BAC60038859C /* CarangasUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5CAB6F4A2734C6670038859C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -822,11 +729,6 @@
 			isa = PBXTargetDependency;
 			target = A19C4BDD1F92C57D00A25342 /* Carangas */;
 			targetProxy = 5CAB6F2B27349BBE0038859C /* PBXContainerItemProxy */;
-		};
-		5CAB6F462734BAC60038859C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A19C4BDD1F92C57D00A25342 /* Carangas */;
-			targetProxy = 5CAB6F452734BAC60038859C /* PBXContainerItemProxy */;
 		};
 		5CAB6F542734C6670038859C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -885,45 +787,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carangas.app/Carangas";
-			};
-			name = Release;
-		};
-		5CAB6F482734BAC60038859C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3974005F8002BA356C5603B2 /* Pods-Carangas-CarangasUITests.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CarangasUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ericbrito.CarangasUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Carangas;
-			};
-			name = Debug;
-		};
-		5CAB6F492734BAC60038859C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3CBF797677BFF2D3E2213BB3 /* Pods-Carangas-CarangasUITests.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CarangasUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ericbrito.CarangasUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Carangas;
 			};
 			name = Release;
 		};
@@ -1119,15 +982,6 @@
 			buildConfigurations = (
 				5CAB6F2D27349BBE0038859C /* Debug */,
 				5CAB6F2E27349BBE0038859C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5CAB6F472734BAC60038859C /* Build configuration list for PBXNativeTarget "CarangasUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5CAB6F482734BAC60038859C /* Debug */,
-				5CAB6F492734BAC60038859C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
